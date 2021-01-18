@@ -6,7 +6,7 @@ public class Function {
 
     String name;
 
-    int ID_Global=-1;
+    int IDInGlobal=-1;
 
     int returnSlot=0;
 
@@ -14,7 +14,7 @@ public class Function {
 
     int locSlot=0;
 
-    int Num=0;
+    int instructionNum=0;
 
     VariableType variableType;
 
@@ -39,11 +39,11 @@ public class Function {
     }
 
     public int getIDInGlobal() {
-        return ID_Global;
+        return IDInGlobal;
     }
 
-    public void setIDInGlobal(int ID_Global) {
-        this.ID_Global = ID_Global;
+    public void setIDInGlobal(int IDInGlobal) {
+        this.IDInGlobal = IDInGlobal;
     }
 
     public int getReturnSlot() {
@@ -71,11 +71,11 @@ public class Function {
     }
 
     public int getInstructionNum() {
-        return Num;
+        return instructionNum;
     }
 
-    public void setInstructionNum(int Num) {
-        this.Num = Num;
+    public void setInstructionNum(int instructionNum) {
+        this.instructionNum = instructionNum;
     }
 
     public VariableType getVariableType() {

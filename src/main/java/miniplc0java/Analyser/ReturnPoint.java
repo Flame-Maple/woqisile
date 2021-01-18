@@ -1,19 +1,19 @@
 package miniplc0java.Analyser;
 
 public class ReturnPoint {
-    ReturnEnum Enum;
+    ReturnEnum returnEnum;
     boolean ifReturn;
-    public ReturnPoint(ReturnEnum Enum,boolean ifReturn){
-        this.Enum=Enum;
+    public ReturnPoint(ReturnEnum returnEnum,boolean ifReturn){
+        this.returnEnum=returnEnum;
         this.ifReturn=ifReturn;
     }
 
     public ReturnEnum getReturnEnum() {
-        return Enum;
+        return returnEnum;
     }
 
-    public void setReturnEnum(ReturnEnum Enum) {
-        this.Enum = Enum;
+    public void setReturnEnum(ReturnEnum returnEnum) {
+        this.returnEnum = returnEnum;
     }
 
     public boolean isIfReturn() {
